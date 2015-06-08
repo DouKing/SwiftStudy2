@@ -137,7 +137,7 @@ if student is Student {
 
 /*     协议  可以声明属性和方法      可以作为一种类型      */
 protocol aProtocol {   //如果声明为@objc protocol, 只能是类遵守的协议， 不能有mutating
-    class func typeFunc();//类型方法
+    static func typeFunc();//类型方法
     mutating func changeValueFunc()
 }
 
